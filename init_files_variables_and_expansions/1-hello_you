@@ -1,2 +1,2 @@
 #!/bin/bash
-alias usr="users" | echo "hello $usr"
+echo "Hello $USER"
