@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#displays username,user id, Home directory path for the user
+
+while IFS= read -r L; do
+    echo "$L" | cut -d':' -f1,4,7
+done < /etc/passwd
