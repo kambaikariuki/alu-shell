@@ -8,7 +8,5 @@ files=$(ls)
 
 for name in $files
 do
-	name=$(echo "$files" | cut -d'-' -f2-)
-
-	echo "$name"
+	echo "$name" | cut -d'-' -f2-
 done
