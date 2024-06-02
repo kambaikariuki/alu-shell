@@ -7,6 +7,6 @@ do
   ((n++))
   if [ $n -eq 9 ]
   then 
-  printf "Best School \nHi\n"
+  printf "Best School\nHi\n"
   fi
 done
