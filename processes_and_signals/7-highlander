@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Cannot be killed
+
+trap "echo I am invincible !!!" SIGINT
+count=0
+
+while [ $count -eq 0 ]
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
+
